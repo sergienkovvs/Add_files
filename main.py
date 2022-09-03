@@ -1,0 +1,17 @@
+res1 = input("1)Input data: ")
+res2 = input("2)Input data: ")
+res3 = input("3)Input data: ")
+res4 = input("4)Input data: ")
+
+strem = open("file.txt", "w")
+strem.write("res1")
+strem.write("\n")
+strem.write("res2")
+strem.write("\n")
+strem.close()
+
+strem = open("file.txt", "a")
+strem.write("res3")
+strem.write("\n")
+strem.write("res4")
+strem.close()
